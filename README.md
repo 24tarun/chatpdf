@@ -7,9 +7,6 @@ In this project i have implemented a similar version of [ChatPDF](https://www.ch
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -24,9 +21,12 @@ The user can upload a pdf file and ask questions about the contents of the file
 
 ## Installation
 
-
+# clone the repo and install the requirements
 ```bash
-# Example installation steps
-git clone https://github.com/yourusername/your-project.git
-cd your-project
+git clone https://github.com/24tarun/chatpdf.git
+navigate to project directory
 pip install -r requirements.txt
+
+# 
+```bash
+
