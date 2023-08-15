@@ -1,6 +1,6 @@
-# Project Name
+# A PDF CHAT BOT
 
-Brief description of your project.
+In this project i have implemented a similar version of [ChatPDF](https://www.chatpdf.com/)
 
 ## Table of Contents
 
@@ -13,22 +13,20 @@ Brief description of your project.
 
 ## Overview
 
-Provide a brief overview of your project. What problem does it solve? What's its main purpose? This section should give readers a quick understanding of what your project is about.
+The project utilises the LangChain framework to tokenise the PDF files into chunks of embeddable data.
+The user can upload a pdf file and ask questions about the contents of the file
 
 ## Features
 
-List the main features or functionalities of your project. Use bullet points for clarity.
-
-- Feature 1: Describe feature 1.
-- Feature 2: Describe feature 2.
-- ...
+- 1: Uses OpenAI's LLM models.
+- 2: Streamlit user interface.
+- 3: Costs about $0.003 for each question 
 
 ## Installation
 
-Provide instructions on how to install and set up your project. Include any prerequisites, dependencies, or environment setup needed. You can use code blocks for terminal commands.
 
 ```bash
 # Example installation steps
 git clone https://github.com/yourusername/your-project.git
 cd your-project
-npm install
+pip install -r requirements.txt
