@@ -1,15 +1,8 @@
 # A PDF CHAT BOT
 
-In this project i have implemented a similar version of [ChatPDF](https://www.chatpdf.com/)
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-
 ## Overview
 
+In this project i have implemented a similar version of [ChatPDF](https://www.chatpdf.com/)
 The project utilises the LangChain framework to tokenise the PDF files into chunks of embeddable data.
 The user can upload a pdf file and ask questions about the contents of the file
 
@@ -21,12 +14,8 @@ The user can upload a pdf file and ask questions about the contents of the file
 
 ## Installation
 
-# clone the repo and install the requirements
-```bash
-git clone https://github.com/24tarun/chatpdf.git
-navigate to project directory
-pip install -r requirements.txt
+- 1: ```git clone https://github.com/24tarun/chatpdf.git```
+- 2: ```pip install -r requirements.txt```
 
-# 
-```bash
+
 
