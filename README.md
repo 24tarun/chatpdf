@@ -14,8 +14,13 @@ The user can upload a pdf file and ask questions about the contents of the file
 
 ## Installation
 
-- 1: ```git clone https://github.com/24tarun/chatpdf.git```
-- 2: ```pip install -r requirements.txt```
+- 1. Clone the repository
+      ```git clone https://github.com/24tarun/chatpdf.git```
+- 2. Once inside the project directory, install the requirements
+      ```pip install -r requirements.txt```
+## Working
 
-
-
+- 1. to start the local streamlit server
+      ``` streamlit run app.py```
+- 2. Browse or Drop your pdf file, or use sample.pdf
+  3. Ask the questions and get answers.
